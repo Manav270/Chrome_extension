@@ -266,11 +266,7 @@ const mycss = () => {
       break;
     case "www.instagram.com":
       document.head.innerHTML = mycss();
-      document.body.innerHTML = myHTML("ROBLOX");
-      break;
-    case "www.facebook.com":
-      document.head.innerHTML = mycss();
-      document.body.innerHTML = myHTML("ROBLOX");
+      document.body.innerHTML = myHTML("INSTAGRAM");
       break;
     case "discord.com":
       document.head.innerHTML = mycss();
